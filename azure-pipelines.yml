@@ -33,7 +33,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-    # Publish the project- prod
+    # Publish the project- prod master
 - task: DotNetCoreCLI@2
   displayName: 'Publish the project - Release'
   inputs:
